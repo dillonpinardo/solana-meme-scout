@@ -1,16 +1,11 @@
 {
   "active": true,
-  "completed": true,
-  "startedAt": "2026-09-09T04:19:00-04:00",
-  "endsAt": "2026-09-09T08:19:00-04:00",
+  "completed": false,
+  "startedAt": "2026-09-09T22:27:20.819Z",
+  "endsAt": "2026-09-10T02:27:20.819Z",
   "startingUsd": 20,
-  "position": {
-    "address": "DgusxuYhbs5TqvLYNhEwEow8GwXyFNgc5hspP7SjfaNc",
-    "symbol": "OTC",
-    "entryPrice": 0.0002046,
-    "openedAt": "2026-09-09T08:20:20.866Z"
-  },
-  "completedAt": "2026-09-09T12:32:43.487Z",
-  "endingUsd": 19.804496578690127,
-  "exitPrice": 0.0002026
+  "cashUsd": 20,
+  "position": null,
+  "trades": [],
+  "closedAddresses": []
 }
