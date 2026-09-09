@@ -1,6 +1,6 @@
 {
   "active": true,
-  "completed": false,
+  "completed": true,
   "startedAt": "2026-09-09T04:19:00-04:00",
   "endsAt": "2026-09-09T08:19:00-04:00",
   "startingUsd": 20,
@@ -9,5 +9,8 @@
     "symbol": "OTC",
     "entryPrice": 0.0002046,
     "openedAt": "2026-09-09T08:20:20.866Z"
-  }
+  },
+  "completedAt": "2026-09-09T12:32:43.487Z",
+  "endingUsd": 19.804496578690127,
+  "exitPrice": 0.0002026
 }
