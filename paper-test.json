@@ -4,5 +4,10 @@
   "startedAt": "2026-09-09T04:19:00-04:00",
   "endsAt": "2026-09-09T08:19:00-04:00",
   "startingUsd": 20,
-  "position": null
+  "position": {
+    "address": "DgusxuYhbs5TqvLYNhEwEow8GwXyFNgc5hspP7SjfaNc",
+    "symbol": "OTC",
+    "entryPrice": 0.0002046,
+    "openedAt": "2026-09-09T08:20:20.866Z"
+  }
 }
