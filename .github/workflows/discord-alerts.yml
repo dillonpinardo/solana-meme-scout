@@ -1,0 +1,26 @@
+name: Solana meme alerts
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node cloud-alerts.mjs
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      - run: |
+          if [ -n "$(git status --porcelain discord-alerted-tokens.json)" ]; then
+            git config user.name "Meme Scout Alerts"
+            git config user.email "actions@github.com"
+            git add discord-alerted-tokens.json
+            git commit -m "Remember alerted tokens"
+            git push
+          fi
