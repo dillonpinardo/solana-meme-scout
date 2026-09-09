@@ -17,10 +17,10 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       - run: |
-          if [ -n "$(git status --porcelain discord-alerted-tokens.json)" ]; then
+          if [ -n "$(git status --porcelain)" ]; then
             git config user.name "Meme Scout Alerts"
             git config user.email "actions@github.com"
-            git add discord-alerted-tokens.json
-            git commit -m "Remember alerted tokens"
+            git add discord-alerted-tokens.json paper-test.json
+            git commit -m "Save scanner and paper-test state"
             git push
           fi
