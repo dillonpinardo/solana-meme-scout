@@ -1,0 +1,7 @@
+{
+  "minLiquidityUsd": 25000,
+  "minVolume24hUsd": 50000,
+  "minBuysToSellsRatio": 1.2,
+  "minScoreToBuy": 70,
+  "maxTokenAgeHours": 168
+}
