@@ -1,17 +1,11 @@
 {
   "active": true,
-  "completed": false,
+  "completed": true,
   "startedAt": "2026-09-09T22:27:20.819Z",
   "endsAt": "2026-09-10T02:27:20.819Z",
   "startingUsd": 20,
-  "cashUsd": 20,
-  "position": {
-    "address": "475NMrZTMXYYc36reBT8n1KyDqGCXq27tdz6bgLjtwv5",
-    "symbol": "BABYSTONK",
-    "entryPrice": 0.0001156,
-    "notionalUsd": 15.965096719932717,
-    "openedAt": "2026-09-10T01:43:34.117Z"
-  },
+  "cashUsd": 17.152811527816986,
+  "position": null,
   "trades": [
     {
       "side": "BUY",
@@ -40,9 +34,24 @@
       "address": "475NMrZTMXYYc36reBT8n1KyDqGCXq27tdz6bgLjtwv5",
       "priceUsd": 0.0001156,
       "notionalUsd": 15.965096719932717
+    },
+    {
+      "side": "SELL",
+      "at": "2026-09-10T02:35:33.959Z",
+      "symbol": "BABYSTONK",
+      "address": "475NMrZTMXYYc36reBT8n1KyDqGCXq27tdz6bgLjtwv5",
+      "entryPrice": 0.0001156,
+      "exitPrice": 0.0001242,
+      "proceedsUsd": 17.152811527816986,
+      "pnlUsd": 1.1877148078842694,
+      "pnlPct": 7.439446366782021,
+      "reason": "test finished"
     }
   ],
   "closedAddresses": [
-    "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN"
-  ]
+    "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN",
+    "475NMrZTMXYYc36reBT8n1KyDqGCXq27tdz6bgLjtwv5"
+  ],
+  "completedAt": "2026-09-10T02:35:34.209Z",
+  "endingUsd": 17.152811527816986
 }
