@@ -6,11 +6,11 @@
   "startingUsd": 20,
   "cashUsd": 0,
   "position": {
-    "address": "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN",
-    "symbol": "BUDDY",
-    "entryPrice": 0.00009512,
-    "notionalUsd": 20,
-    "openedAt": "2026-09-10T01:31:51.943Z"
+    "address": "475NMrZTMXYYc36reBT8n1KyDqGCXq27tdz6bgLjtwv5",
+    "symbol": "BABYSTONK",
+    "entryPrice": 0.0001156,
+    "notionalUsd": 15.965096719932717,
+    "openedAt": "2026-09-10T01:43:34.117Z"
   },
   "trades": [
     {
@@ -20,7 +20,29 @@
       "address": "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN",
       "priceUsd": 0.00009512,
       "notionalUsd": 20
+    },
+    {
+      "side": "SELL",
+      "at": "2026-09-10T01:43:33.813Z",
+      "symbol": "BUDDY",
+      "address": "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN",
+      "entryPrice": 0.00009512,
+      "exitPrice": 0.00007593,
+      "proceedsUsd": 15.965096719932717,
+      "pnlUsd": -4.034903280067283,
+      "pnlPct": -20.17451640033642,
+      "reason": "stop loss at -8%"
+    },
+    {
+      "side": "BUY",
+      "at": "2026-09-10T01:43:34.117Z",
+      "symbol": "BABYSTONK",
+      "address": "475NMrZTMXYYc36reBT8n1KyDqGCXq27tdz6bgLjtwv5",
+      "priceUsd": 0.0001156,
+      "notionalUsd": 15.965096719932717
     }
   ],
-  "closedAddresses": []
+  "closedAddresses": [
+    "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN"
+  ]
 }
