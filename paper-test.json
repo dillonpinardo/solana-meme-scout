@@ -4,8 +4,23 @@
   "startedAt": "2026-09-09T22:27:20.819Z",
   "endsAt": "2026-09-10T02:27:20.819Z",
   "startingUsd": 20,
-  "cashUsd": 20,
-  "position": null,
-  "trades": [],
+  "cashUsd": 0,
+  "position": {
+    "address": "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN",
+    "symbol": "BUDDY",
+    "entryPrice": 0.00009512,
+    "notionalUsd": 20,
+    "openedAt": "2026-09-10T01:31:51.943Z"
+  },
+  "trades": [
+    {
+      "side": "BUY",
+      "at": "2026-09-10T01:31:51.943Z",
+      "symbol": "BUDDY",
+      "address": "FZhXxRsFdDWqmPmEw2hFzuiUAL1wEJUJ9LZg2xS5t3vN",
+      "priceUsd": 0.00009512,
+      "notionalUsd": 20
+    }
+  ],
   "closedAddresses": []
 }
