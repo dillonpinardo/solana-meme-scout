@@ -4,7 +4,7 @@
   "startedAt": "2026-09-09T22:27:20.819Z",
   "endsAt": "2026-09-10T02:27:20.819Z",
   "startingUsd": 20,
-  "cashUsd": 0,
+  "cashUsd": 20,
   "position": {
     "address": "475NMrZTMXYYc36reBT8n1KyDqGCXq27tdz6bgLjtwv5",
     "symbol": "BABYSTONK",
